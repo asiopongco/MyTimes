@@ -1,0 +1,193 @@
+header{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  background-color: white;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h2{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+li{
+  display: block;
+  border-bottom: 1px solid black;
+  padding: 11px 20px;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+
+footer{
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+
+  color: MediumAquaMarine;
+}
+
+.logo img{
+  margin-right: 12px;
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.content{
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+  padding-top: 116px;
+}
+
+.column.large{
+
+  width: 630px;
+  display: block;
+}
+
+.column.medium{
+
+  width: 300px;
+}
+
+.column.small{
+  width: 240px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.main.story{
+  display:block;
+
+}
+
+.side.story{
+  display: flex;
+
+  flex-direction: column;
+}
+
+.news-bites{
+  display:block;
+  width: 240px;
+}
+
+.sides{
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.orca{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.burgers{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.imgstory{
+  display: flex;
+
+  justify-content: space-between;
+  text-align: center;
+}
+
+.tuna{
+  display: flex;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  background-image:url("../Images/main.png");
+}
+
+.earth{
+  display: flex;
+  height: 300px;
+  width: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-image:url("../Images/fall.png");
+}
+
+.camera{
+  display: flex;
+  height: 300px;
+  width: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-image:url("../Images/camera.png");
+}
+
+.cats{
+  display: flex;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-image:url("../Images/cat.png");
+}
+
+.info{
+  display: block;
+  height: 30px;
+}
+
+.end-logo{
+  display: inline-block;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.end-nav{
+  display: inline-block;
+}
+
+.copyright{
+}
